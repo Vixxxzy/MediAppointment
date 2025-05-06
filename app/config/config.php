@@ -1,7 +1,7 @@
 <?php
 
 	// define path constants
-    define("APP_PATH", "http://103.23.199.190/MediAppointment/MediAppointment/public");
+    define("APP_PATH", "http://103.23.199.190/MediAppointment/public");
 
     // define database config
     define("HOST_DB", "localhost");
