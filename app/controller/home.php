@@ -66,7 +66,7 @@ class home extends Controller
 		// Associative Arrays (arrays with keys)
 
 		$arr_data['title'] = "Doctor";
-		$arr_data['doctors'] = $this->logic("doctor_model")->get_data_appointment();
+		$arr_data['doctors'] = $this->logic("Doctor_model")->get_data_appointment();
 		
 
 		$this->display('template/header', $arr_data);
