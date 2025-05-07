@@ -17,7 +17,7 @@
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A12.083 12.083 0 0112 15c2.21 0 4.264.597 6.121 1.804M15 11a3 3 0 10-6 0 3 3 0 006 0z" />
           </svg>
-          <input type="text" name="usernameoremail" placeholder="Username or Email"
+          <input type="text" name="usernameoremail" placeholder="Put your username/E-mail"
             class="w-full bg-transparent focus:outline-none" />
         </div>
 
@@ -26,7 +26,7 @@
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c.828 0 1.5-.672 1.5-1.5S12.828 8 12 8s-1.5.672-1.5 1.5S11.172 11 12 11zm0 0v3m6 2a9 9 0 11-12 0h12z" />
           </svg>
-          <input type="password" name="password" placeholder="Password"
+          <input type="password" name="password" placeholder="Put your Password"
             class="w-full bg-transparent focus:outline-none" />
         </div>
 
