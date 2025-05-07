@@ -8,7 +8,7 @@
         </div>
       <?php endif; ?>
 
-      <h1 class="text-center text-2xl font-bold mb-6">Regist your account</h1>
+      <h1 class="text-center text-2xl font-bold mb-6">Register your account</h1>
 
       <form action="<?= APP_PATH ?>/login/store" method="post">
 
