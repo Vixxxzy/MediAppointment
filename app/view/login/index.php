@@ -13,12 +13,22 @@
 
       <form action="<?= APP_PATH; ?>/login/verification" method="post">
         <label class="block text-sm font-semibold mb-1">Username or E-mail</label>
-        <input type="text" name="usernameoremail"
-          class="w-full px-3 py-2 mb-4 rounded-md bg-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+        <div class="flex items-center bg-gray-200 rounded-md mb-4 px-3 py-2 focus-within:ring-2 focus-within:ring-blue-500">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A12.083 12.083 0 0112 15c2.21 0 4.264.597 6.121 1.804M15 11a3 3 0 10-6 0 3 3 0 006 0z" />
+          </svg>
+          <input type="text" name="usernameoremail" placeholder="Username or Email"
+            class="w-full bg-transparent focus:outline-none" />
+        </div>
 
         <label class="block text-sm font-semibold mb-1">Password</label>
-        <input type="password" name="password"
-          class="w-full px-3 py-2 mb-6 rounded-md bg-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+        <div class="flex items-center bg-gray-200 rounded-md mb-6 px-3 py-2 focus-within:ring-2 focus-within:ring-blue-500">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c.828 0 1.5-.672 1.5-1.5S12.828 8 12 8s-1.5.672-1.5 1.5S11.172 11 12 11zm0 0v3m6 2a9 9 0 11-12 0h12z" />
+          </svg>
+          <input type="password" name="password" placeholder="Password"
+            class="w-full bg-transparent focus:outline-none" />
+        </div>
 
         <button type="submit"
           class="block w-28 mx-auto py-2 rounded-full bg-blue-700 text-white hover:bg-blue-800 transition">Login</button>
