@@ -1,6 +1,5 @@
-<body class="bg-gradient-to-b from-white via-blue-700 to-cyan-400 h-screen">
-
-  <div class="flex items-center justify-center h-full">
+<body class="bg-gradient-to-b from-white via-blue-700 to-cyan-400 min-h-screen">
+  <div class="flex justify-center items-center min-h-screen py-16">
     <div class="bg-white p-8 rounded-xl shadow-lg w-full max-w-sm">
 
       <?php if (isset($data['error-message'])): ?>
