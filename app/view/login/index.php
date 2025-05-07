@@ -35,8 +35,8 @@
       </form>
 
       <p class="text-center mt-4 text-sm">
-        Belum punya akun? <a href="<?= APP_PATH ?>/login/register" class="text-blue-600 hover:underline">Daftar di
-          sini</a>
+      Don't have an account yet? <a href="<?= APP_PATH ?>/login/register" class="text-blue-600 hover:underline">Register here
+          </a>
       </p>
 
 
