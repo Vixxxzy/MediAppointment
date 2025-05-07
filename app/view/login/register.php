@@ -1,5 +1,6 @@
-<body class="min-h-screen bg-gradient-to-br from-blue-100 via-white to-blue-200 flex items-center justify-center px-4">
-  <div class="bg-white p-10 rounded-2xl shadow-2xl w-full max-w-md transition-all duration-300">
+<body class="bg-gradient-to-b from-white via-blue-700 to-cyan-400 min-h-screen">
+  <div class="flex justify-center items-center min-h-screen py-16">
+    <div class="bg-white p-8 rounded-xl shadow-lg w-full max-w-sm">
     
     <?php if (isset($_SESSION['error-message'])): ?>
       <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4">
