@@ -1,7 +1,7 @@
 <?php
 
 	// define path constants
-    define("APP_PATH", "https://mediappointment.site");
+    define("APP_PATH", "https://mediappointment.site/public");
 
     // define database config
     define("HOST_DB", "localhost");
